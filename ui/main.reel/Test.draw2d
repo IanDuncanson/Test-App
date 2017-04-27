@@ -1,1 +1,161 @@
-[]
+[
+  {
+    "type": "draw2d.shape.node.Start",
+    "id": "23b08ad1-68c8-96b6-2fa6-1aab7dc917f6",
+    "x": 162,
+    "y": 229,
+    "width": 50,
+    "height": 50,
+    "alpha": 1,
+    "userData": {},
+    "cssClass": "draw2d_shape_node_Start",
+    "ports": [
+      {
+        "type": "draw2d.OutputPort",
+        "id": "abd40143-1187-6eee-e1cf-4b3f092f7baf",
+        "width": 10,
+        "height": 10,
+        "alpha": 0,
+        "userData": {},
+        "cssClass": "draw2d_OutputPort",
+        "bgColor": "#FF9100",
+        "color": "#1B1B1B",
+        "stroke": 0,
+        "maxFanOut": 9007199254740991,
+        "name": "output0",
+        "port": "draw2d.OutputPort",
+        "locator": "draw2d.layout.locator.OutputPortLocator"
+      }
+    ],
+    "bgColor": "#FFB74D",
+    "color": "#000000",
+    "stroke": 1,
+    "radius": 0
+  },
+  {
+    "type": "draw2d.shape.node.Between",
+    "id": "21bf500f-08a6-98bc-3657-546b33bbd1e6",
+    "x": 360,
+    "y": 207,
+    "width": 50,
+    "height": 50,
+    "alpha": 1,
+    "userData": {},
+    "cssClass": "draw2d_shape_node_Between",
+    "ports": [
+      {
+        "type": "draw2d.OutputPort",
+        "id": "e1e89b05-56f2-d40d-94f0-7a8b1ec0566c",
+        "width": 10,
+        "height": 10,
+        "alpha": 0,
+        "userData": {},
+        "cssClass": "draw2d_OutputPort",
+        "bgColor": "#FF9100",
+        "color": "#1B1B1B",
+        "stroke": 0,
+        "maxFanOut": 9007199254740991,
+        "name": "output0",
+        "port": "draw2d.OutputPort",
+        "locator": "draw2d.layout.locator.OutputPortLocator"
+      },
+      {
+        "type": "draw2d.InputPort",
+        "id": "b1364b55-49a9-3509-45d6-bb0dc1c1a534",
+        "width": 10,
+        "height": 10,
+        "alpha": 0,
+        "userData": {},
+        "cssClass": "draw2d_InputPort",
+        "bgColor": "#FF9100",
+        "color": "#1B1B1B",
+        "stroke": 0,
+        "maxFanOut": 9007199254740991,
+        "name": "input0",
+        "port": "draw2d.InputPort",
+        "locator": "draw2d.layout.locator.InputPortLocator"
+      }
+    ],
+    "bgColor": "#4DB6AC",
+    "color": "#000000",
+    "stroke": 1,
+    "radius": 0
+  },
+  {
+    "type": "draw2d.shape.node.End",
+    "id": "7f445e24-8511-54d9-5508-9f8e2cfcbe9f",
+    "x": 598,
+    "y": 234,
+    "width": 50,
+    "height": 50,
+    "alpha": 1,
+    "userData": {},
+    "cssClass": "draw2d_shape_node_End",
+    "ports": [
+      {
+        "type": "draw2d.InputPort",
+        "id": "16ee2896-78c7-6fcd-b643-8746b6291ee7",
+        "width": 10,
+        "height": 10,
+        "alpha": 0,
+        "userData": {},
+        "cssClass": "draw2d_InputPort",
+        "bgColor": "#FF9100",
+        "color": "#1B1B1B",
+        "stroke": 0,
+        "maxFanOut": 9007199254740991,
+        "name": "input0",
+        "port": "draw2d.InputPort",
+        "locator": "draw2d.layout.locator.InputPortLocator"
+      }
+    ],
+    "bgColor": "#F06292",
+    "color": "#000000",
+    "stroke": 1,
+    "radius": 0
+  },
+  {
+    "type": "RubberConnection",
+    "id": "750fda86-41a1-0b76-14a7-3cebeb368b32",
+    "alpha": 1,
+    "userData": {},
+    "cssClass": "RubberConnection",
+    "stroke": 1,
+    "color": "#33691E",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "router": "draw2d.layout.connection.RubberbandRouter",
+    "radius": 2,
+    "source": {
+      "node": "21bf500f-08a6-98bc-3657-546b33bbd1e6",
+      "port": "output0"
+    },
+    "target": {
+      "node": "7f445e24-8511-54d9-5508-9f8e2cfcbe9f",
+      "port": "input0"
+    }
+  },
+  {
+    "type": "RubberConnection",
+    "id": "45bb446c-af9c-6c59-c991-4f5e9dff800e",
+    "alpha": 1,
+    "userData": {},
+    "cssClass": "RubberConnection",
+    "stroke": 1,
+    "color": "#33691E",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "router": "draw2d.layout.connection.RubberbandRouter",
+    "radius": 2,
+    "source": {
+      "node": "23b08ad1-68c8-96b6-2fa6-1aab7dc917f6",
+      "port": "output0"
+    },
+    "target": {
+      "node": "21bf500f-08a6-98bc-3657-546b33bbd1e6",
+      "port": "input0"
+    }
+  }
+]
