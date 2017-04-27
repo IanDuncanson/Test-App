@@ -2,8 +2,8 @@
   {
     "type": "draw2d.shape.node.Start",
     "id": "23b08ad1-68c8-96b6-2fa6-1aab7dc917f6",
-    "x": 162,
-    "y": 229,
+    "x": 176,
+    "y": 132,
     "width": 50,
     "height": 50,
     "alpha": 1,
@@ -84,8 +84,8 @@
   {
     "type": "draw2d.shape.node.End",
     "id": "7f445e24-8511-54d9-5508-9f8e2cfcbe9f",
-    "x": 598,
-    "y": 234,
+    "x": 577,
+    "y": 132,
     "width": 50,
     "height": 50,
     "alpha": 1,
