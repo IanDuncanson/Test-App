@@ -113,49 +113,5 @@
     "color": "#000000",
     "stroke": 1,
     "radius": 0
-  },
-  {
-    "type": "RubberConnection",
-    "id": "750fda86-41a1-0b76-14a7-3cebeb368b32",
-    "alpha": 1,
-    "userData": {},
-    "cssClass": "RubberConnection",
-    "stroke": 1,
-    "color": "#33691E",
-    "outlineStroke": 0,
-    "outlineColor": "none",
-    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
-    "router": "draw2d.layout.connection.RubberbandRouter",
-    "radius": 2,
-    "source": {
-      "node": "21bf500f-08a6-98bc-3657-546b33bbd1e6",
-      "port": "output0"
-    },
-    "target": {
-      "node": "7f445e24-8511-54d9-5508-9f8e2cfcbe9f",
-      "port": "input0"
-    }
-  },
-  {
-    "type": "RubberConnection",
-    "id": "45bb446c-af9c-6c59-c991-4f5e9dff800e",
-    "alpha": 1,
-    "userData": {},
-    "cssClass": "RubberConnection",
-    "stroke": 1,
-    "color": "#33691E",
-    "outlineStroke": 0,
-    "outlineColor": "none",
-    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
-    "router": "draw2d.layout.connection.RubberbandRouter",
-    "radius": 2,
-    "source": {
-      "node": "23b08ad1-68c8-96b6-2fa6-1aab7dc917f6",
-      "port": "output0"
-    },
-    "target": {
-      "node": "21bf500f-08a6-98bc-3657-546b33bbd1e6",
-      "port": "input0"
-    }
   }
 ]
